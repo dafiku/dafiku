@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px 0 70px 0;
+}
+
+nav {
+  font-family: 'Poppins';
+  width: 100%;
+}
+
+header {
+  /* padding-left: 50px;
+  padding-left: 50px; */
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand-image {
+  width: 42px;
+}
+
+.brand-name {
+  color: #cb416b;
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+
+.navbar-nav {
+}
+
+.navbar-collapse {
+}
+
+.nav-item {
+  color: #363636;
+}
+
+.nav-link {
+  margin-left: 32px;
+}
+
+.hero {
+  padding: 40px 0 40px 0;
+}
+
+.hero-content {
+  position: relative;
+}
+
+.location {
+  /* display: flex; */
+  /* height: 14%; */
+}
+
+.location-name {
+  font-family: 'Plus Jakarta Sans';
+}
+
+.location-image {
+  width: 28px;
+  height: 28px;
+}
+
+.location-name {
+}
+.content {
+}
+
+.text-dafiku {
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 80px;
+  color: rgba(54, 54, 54, 0.3);
+  text-transform: uppercase;
+  position: absolute;
+  right: 18%;
+  top: -10%;
+  z-index: -1;
+}
+
+.content-title {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 46px;
+}
+
+.content-text {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.075rem;
+  margin-top: 16px;
+}
+
+.btn {
+  background-color: #cb416b;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+  padding: 10px 16px 10px 16px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.img-dafiku {
+  width: 650px;
+  height: 400px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.about {
+  margin-top: 40px;
+}
+
+.title {
+  font-family: 'Plus Jakarta Sans';
+  color: #9b9697;
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.about > h3 {
+  font-family: 'Plus Jakarta Sans';
+  margin-top: 10px;
+}
+
+.about-field {
+  margin-top: 40px;
+}
+
+.about-text-content {
+  font-size: 1.5rem;
+  font-family: 'Plus Jakarta Sans';
+  text-align: justify;
+}
+
+.dafiku-text {
+  color: #cb416b;
+}
+
+.products {
+  margin-top: 70px;
+}
+
+.card {
+  width: 300px;
+  height: 275px;
+  border-radius: 16px;
+}
+
+.product-data {
+  background-color: rgba(203, 65, 107, 0.825);
+  width: 100%;
+  padding: 12px 16px 1px 16px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Plus Jakarta Sans';
+}
+
+li.product-list-item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.check_list_img {
+  width: 24px;
+  height: 24px;
+}
+
+.product-list-item > span {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.25rem;
+  margin-left: 10px;
+}
+/* .product-data > h6 {
+  background-color: red;
+}
+.product-data > p {
+  background-color: blue;
+} */
+
+.price {
+}
+
+.product-one {
+  background-image: url('../../public/images/keripik_pisang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.product-two {
+  background-image: url('../../public/images/keripik_pisang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+.product-three {
+  background-image: url('../../public/images/keripik_pisang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+@media only screen and (max-width: 512px) {
+  header {
+    padding-left: 16px;
+    padding-right: 0;
+  }
+  .navbar-nav {
+    margin-left: 16px;
+    margin-top: 12px;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+  .hero {
+  }
+  .hero-content {
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-direction: column;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .img-field {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .img-keripik {
+    width: 100%;
+  }
+
+  .content-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .content-text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .btn {
+    margin-top: 20px;
+    padding: 8px 8px 8px 8px;
+    font-size: 14px;
+  }
+  .location {
+  }
+
+  .about {
+    margin-top: 50px;
+  }
+
+  .about-field {
+    flex-direction: column;
+  }
+
+  .img-dafiku {
+    width: 100%;
+    height: 100%;
+    margin-right: 0;
+  }
+
+  .about-content-field {
+    margin-top: 20px;
+  }
+
+  .about-field {
+    margin-top: 20px;
+  }
+
+  .about-text-content {
+    font-size: 0.875rem;
+  }
+
+  .product-list {
+    padding-left: 0;
+  }
+  .product-list-item > img {
+    width: 18px;
+    height: 18px;
+  }
+
+  .product-list-item > span {
+    font-size: 0.875rem;
+  }
+  .img-keripik {
+    width: 60%;
+  }
+}

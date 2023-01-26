@@ -4,9 +4,160 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="./public/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css  " />
     <title>Dafiku</title>
   </head>
   <body>
-    <h1>Welcome to Dafiku</h1>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="./public/images/dafiku_logo.svg"
+              alt="Logo"
+              class="d-inline-block align-text-top brand-image"
+            />
+            <span class="brand-name">Dafiku</span>
+          </a>
+          <div class="navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="container hero mt-3">
+      <div
+        class="hero-content d-flex align-items-center justify-content-between"
+      >
+        <div class="content">
+          <div class="location d-flex">
+            <img class="location-image" src="./public/images/ic_location.svg" />
+            <p class="location-name ms-1">Banyorang, Kab Bantaeng</p>
+          </div>
+          <h3 class="content-title">
+            Waktu Terbaik Kumpul Keluarga 
+            di Temani Keripik Dafiku.
+          </h3>
+          <p class="content-text">
+            Selamat datang di website Keripik pisang dan keripik talasnya dafiku
+          </p>
+          <button type="button" class="btn">Get Started</button>
+        </div>
+        <div class="content-img-field">
+          <div class="text-dafiku">Dafiku</div>
+          <!-- <div class="circle"></div> -->
+          <div class="img-field d-flex justify-content-center">
+            <img
+              src="./public/images/keripik.png"
+              alt="Logo"
+              class="d-inline-block img-keripik"
+              width="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container about d-flex flex-column align-items-center">
+      <span class="title">Tentang Kami</span>
+      <h3>Informasi tentang <span class="dafiku-text">Dafiku</span></h3>
+      <div class="about-field d-flex">
+        <div>
+          <img
+            src="./public/images/banana_chips.jpg"
+            class="d-inline-block img-dafiku"
+          />
+        </div>
+        <div class="about-content-field">
+          <!-- <h3 class="about-title">Tentang Dafiku</h3> -->
+          <p class="about-text-content">
+            UKM DAFIKU dirintis sejak tahun 2018 oleh Ibu Inzani dengan
+            memproduksi keripik pisang sebagai produk utama. Keripik Pisang
+            Dafiku dengan jenis Emas Jawa pilihan dipadukan dengan bumbu rempah
+            tanpa bahan pengawet. Bumbu yang diracik menghasilkan kripik pisang
+            renyah, manis,dan pedas. Keripik Dafiku memiliki berbagai macam
+            varian rasa antara lain :
+          </p>
+          <ul class="product-list">
+            <li class="product-list-item">
+              <img class="check_list_img" src="./public/icons/check_list.svg"/>
+              <span>Keripik Pisang Original</span>
+            </li>
+            <li class="product-list-item">
+              <img class="check_list_img" src="./public/icons/check_list.svg"/>
+              <span>Keripik Pisang Pedas Manis</span>
+            </li>
+            <li class="product-list-item">
+              <img class="check_list_img" src="./public/icons/check_list.svg"/>
+              <span>Keripik Talas Original</span>
+            </li>
+          </ul>
+          <!-- <div>
+            <span>Hubungi Kami</span>
+            <h4>+521212155</h4>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="products container">
+      <div class="product-content d-flex flex-column">
+        <span class="title mb-4">Produk kami</span>
+        <div class="row row-cols-3 justify-content-around align-items-center">
+          <div class="card product-one col-12 col-md-12 col-lg-4 mb-5">
+            <div class="card-body d-flex align-items-end">
+              <!-- <img src="./public/images/keripik_pisang.jpg" /> -->
+              <div class="product-data">
+                <h6>Keripik Pisang</h6>
+                <p>Keripik Pisang Original</p>
+                <!-- <p class="price">Rp.5000</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 product-two col-md-12 col-lg-4 mb-5">
+            <div class="card-body d-flex align-items-end"">
+              <div class="product-data">
+                <h6>Keripik Pisang</h6>
+                <p>Keripik Pisang Pedas Manis</p>
+                <!-- <p class="price">Rp.5000</p> -->
+              </div>
+            </div>
+          </div>
+          <div class="card col-12 product-three col-md-12 col-lg-4 mb-5">
+            <div class="card-body d-flex align-items-end">
+              <div class="product-data">
+                <h6>Keripik Talas</h6>
+                <p>Keripik Talas Original</p>
+                <!-- <p class="price">Rp.5000</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container">
+      <div class="d-flex justify-content-center align-items-center">
+        <span class="title">Hubungi kami</span>
+      </div>
+    </section>
+    <script src="./public/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
