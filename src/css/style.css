@@ -194,23 +194,124 @@ li.product-list-item {
 .price {
 }
 
+.product {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
 .product-one {
   background-image: url('../../public/images/keripik_pisang.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
 }
+
 .product-two {
   background-image: url('../../public/images/keripik_pisang.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
 }
+
 .product-three {
   background-image: url('../../public/images/keripik_pisang.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom center;
+}
+
+.product-four {
+  background-image: url('../../public/images/keripik_pisang.jpg');
+}
+
+.data-img-field {
+  height: 100%;
+}
+
+.data-field {
+  height: min-content;
+}
+
+.data-container {
+  background-color: white;
+  width: 70%;
+  height: 120px;
+  padding: 15px 0 0 0;
+  border-radius: 16px;
+}
+
+.contact-me {
+  margin-top: 20px;
+}
+
+.data-img {
+  width: 40px;
+  height: 40px;
+}
+
+.data-name {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.275rem;
+  font-weight: 600;
+}
+
+.data-text {
+  font-family: 'Plus Jakarta Sans';
+  font-size: 1.125rem;
+}
+.contact {
+  background-color: rgba(239, 239, 239, 0.4);
+  height: 100%;
+  padding: 40px 0 60px 0;
+}
+.contact-left-container {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 70px;
+}
+
+.first-footer {
+  width: 20%;
+}
+
+.first-footer > p {
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 400;
+  width: 60%;
+  margin-top: 16px;
+}
+
+.nav-item-title {
+  font-family: 'Plus Jakarta Sans';
+  margin-bottom: 20px;
+}
+
+.nav-item-footer {
+  margin-bottom: 20px;
+}
+
+.icons-media {
+  width: 27px;
+}
+
+.text-media {
+  font-family: 'Plus Jakarta Sans';
+  padding-top: 10px;
+}
+
+.second-footer {
+  width: 50%;
+}
+
+.third-footer {
+  width: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: #363636;
+}
+
+li {
+  list-style: none;
+}
+
+.google-maps {
+  width: 700px;
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 512px) {
@@ -304,5 +405,40 @@ li.product-list-item {
   }
   .img-keripik {
     width: 60%;
+  }
+
+  .data-container {
+    width: 100%;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-right-container {
+    margin-top: 50px;
+  }
+
+  .google-maps {
+    width: 100vw;
+    height: 350px;
+    border-radius: 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .right-footer {
+    margin-top: 30px;
+  }
+  .first-footer {
+    width: 100%;
+  }
+  .first-footer > p {
+    width: 100%;
+  }
+
+  .second-footer {
   }
 }
