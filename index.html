@@ -28,13 +28,16 @@
           <div class="navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
               </li>
             </ul>
           </div>
@@ -52,12 +55,15 @@
             <p class="location-name ms-1">Banyorang, Kab Bantaeng</p>
           </div>
           <h3 class="content-title">
-            Waktu Terbaik Kumpul Keluarga di Temani Keripik Dafiku.
+            Waktu Terbaik Kumpul Keluarga <br />
+            di Temani Keripik Dafiku.
           </h3>
           <p class="content-text">
             Selamat datang di website Keripik pisang dan keripik talasnya dafiku
           </p>
-          <button type="button" class="btn">Get Started</button>
+          <button type="button">
+            <a href="https://wa.me/6281342777362" class="btn"> Hubungi Kami </a>
+          </button>
         </div>
         <div class="content-img-field">
           <div class="text-dafiku">Dafiku</div>
@@ -80,7 +86,7 @@
       <div class="about-field d-flex">
         <div>
           <img
-            src="./public/images/banana_chips.jpg"
+            src="./public/images/dafiku_cips.png"
             class="d-inline-block img-dafiku"
           />
         </div>
@@ -120,39 +126,30 @@
       <div class="product-content d-flex flex-column">
         <span class="title mb-4">Produk kami</span>
         <div class="row row-cols-4 justify-content-around align-items-center">
-          <div class="card product-one product col-12 col-md-12 col-lg-4 mb-5">
+          <div class="card product-one product col-12 col-lg-4 mb-5">
             <div class="card-body d-flex align-items-end">
               <!-- <img src="./public/images/keripik_pisang.jpg" /> -->
               <div class="product-data">
                 <h6>Keripik Pisang</h6>
-                <p>Keripik Pisang Original</p>
+                <p>Keripik Pisang Pedas Manis</p>
                 <!-- <p class="price">Rp.5000</p> -->
               </div>
             </div>
           </div>
-          <div class="card col-12 product-two product col-md-12 col-lg-4 mb-5">
+          <div class="card col-12 product-two product col-lg-4 mb-5">
             <div class="card-body d-flex align-items-end"">
             <div class="product-data">
               <h6>Keripik Pisang</h6>
-              <p>Keripik Pisang Pedas Manis</p>
+              <p>Keripik Pisang Coklat</p>
               <!-- <p class="price">Rp.5000</p> -->
             </div>
           </div>
         </div>
-        <div class="card col-12 product-three product col-md-12 col-lg-4 mb-5">
+        <div class="card col-12 product-three product col-lg-4 mb-5">
           <div class="card-body d-flex align-items-end">
             <div class="product-data">
               <h6>Keripik Talas</h6>
-              <p>Keripik Talas Original</p>
-              <!-- <p class="price">Rp.5000</p> -->
-            </div>
-          </div>
-        </div>
-        <div class="card col-12 product-four product col-md-12 col-lg-4 mb-5">
-          <div class="card-body d-flex align-items-end">
-            <div class="product-data">
-              <h6>Keripik Pisang</h6>
-              <p>Keripik Pisang Coklat</p>
+              <p>Keripik Talas Pedas Manis</p>
               <!-- <p class="price">Rp.5000</p> -->
             </div>
           </div>
@@ -219,39 +216,6 @@
       </div>
     </section>
 
-    <!-- <div class="mapouter container">
-      <div class="gmap_canvas">
-        <iframe
-          width="1440"
-          height="500"
-          id="gmap_canvas"
-          src="https://maps.google.com/maps?q=Banyorang&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          frameborder="0"
-          scrolling="no"
-          marginheight="0"
-          marginwidth="0"
-        ></iframe
-        ><a href="https://www.whatismyip-address.com/divi-discount/"
-          >divi discount</a
-        ><br /><style>
-          .mapouter {
-            position: relative;
-            text-align: right;
-            height: 500px;
-            width: 600px;
-          }</style
-        ><a href="https://www.embedgooglemap.net">map embed</a
-        ><style>
-          .gmap_canvas {
-            overflow: hidden;
-            background: none !important;
-            height: 500px;
-            width: 600px;
-          }
-        </style>
-      </div>
-    </div> -->
-
     <footer class="footer container-fluid">
       <div class="footer-container d-flex container">
         <div
@@ -294,19 +258,24 @@
             </div>
 
             <div class="contact-field d-flex align-items-center">
-              <img
-                src="./public/icons/ic_baseline-whatsapp.svg"
-                class="icons-media me-2"
-              />
-              <p class="text-media">Instagram</p>
+              <a href="https://wa.me/6281342777362" class="d-flex">
+                <img
+                  src="./public/icons/ic_baseline-whatsapp.svg"
+                  class="icons-media me-3"
+                />
+
+                <p class="text-media mt-2">Whatsapp</p>
+              </a>
             </div>
 
             <div class="contact-field d-flex align-items-center">
-              <img
-                src="./public/icons/mdi_instagram.svg"
-                class="icons-media me-2"
-              />
-              <p class="text-media">Whatsapp</p>
+              <a href="https://www.instagram.com/dafiku.id/" class="d-flex">
+                <img
+                  src="./public/icons/mdi_instagram.svg"
+                  class="icons-media me-3"
+                />
+                <p class="text-media mt-2">Instagram</p>
+              </a>
             </div>
           </div>
         </div>
