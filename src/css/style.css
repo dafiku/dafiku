@@ -438,7 +438,7 @@ li {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 512px) {
   header {
     padding-left: 16px;
     padding-right: 0;
@@ -451,8 +451,7 @@ li {
   .nav-link {
     margin-left: 0;
   }
-  .hero {
-  }
+
   .hero-content {
     padding-left: 16px;
     padding-right: 16px;
@@ -472,6 +471,9 @@ li {
     width: 100%;
   }
 
+  .products {
+    margin-top: 50px;
+  }
   .content-title {
     font-size: 1.5rem;
     text-align: center;
